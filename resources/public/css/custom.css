@@ -1,0 +1,50 @@
+html,body{	margin:0;
+        padding:0;
+        height:100%; /* needed for container min-height */}
+body{background:url("../img/bg.png") repeat scroll 0 0 transparent;}
+a {color:#FF6600;}
+.nav-tabs > li > a {color: #005580;}
+.navlink {color:#BBB;}
+h2{margin-bottom:9px;}
+.pageContainer {
+        position:relative; /* needed for footer positioning*/
+        margin:0 auto; /* center, not in IE5 */
+        height:auto !important; /* real browsers */
+        height:100%; /* IE6: treaded as min-height*/
+        min-height:100%; /* real browsers */
+        }
+.pageContainer .last {padding-bottom: 60px;/* bottom padding for footer */}
+.navbar-inner, .navbar .fill {background-color:#534946;background-image: -moz-linear-gradient(center top , #675b57, #534946);}
+.navbar div > ul .active > a, .nav .active > a {background-color:rgba(0, 0, 0, 0.2);}
+
+form .input {margin-left: 0; text-align: center;}
+.navbar h3 a, .navbar .brand {font-weight: bold;}
+
+.magic{font-family: 'Asap' !important;font-style:bold;font-weight:700;margin-right: -0.1em;font-size: 1.2em;}
+.navbar .magic{font-weight:200;line-height: 1px;}
+.hero-unit {/* background:url("../img/graph_bg.png") repeat scroll 0 0 transparent; */ border:1px solid #bebdbd; padding:0; margin-top: 10px;}
+.hero-unit h1 .magic{line-height: 1.2em; color:#003366;text-shadow: -3px 5px 5px #8f8484;}
+.hero-logo {background:url("../img/mastodon.png") repeat scroll 0 0 transparent; padding:60px;}
+.hero-logo p .done-better{font-size: 32px;}
+
+
+.mg-signup{background:url("../img/signup_bg.png") repeat scroll 0 0 #ded8cb;margin-bottom:20px;padding-top:0px;border-top:1px solid #b1af9f;border-bottom:1px solid #b1af9f;}
+.mg-signup .container{background:url("../img/signup_top_bordershadow.png") no-repeat scroll 0 0 transparent;padding-top:20px;margin-top:0;}
+.mg-signup .inline-inputs{color:#333;}
+.mg-signup .inline-inputs input {margin:0 3px;}
+
+footer {background-color: #534946;background-image: -moz-linear-gradient(center top , #534946, #675B57);color: #CCCCCC;position:absolute;
+        width:100%;
+        bottom:0; /* stick to bottom */
+        padding-bottom: 8px;}
+footer div.container {margin-top: 10px;}
+footer ul {color: #CCCCCC;
+display: block;
+    float: left;
+    left: 0;
+    margin: 0 10px 0 0;
+    position: relative;}
+footer ul li{color:#CCCCCC;display:block;float:left;margin-right:36px;}
+footer a {color: #CCCCCC;}
+footer a:hover{color:#FF6600;}
+div.alert.alert-error > ul{margin: 0 0 0 25px;}
